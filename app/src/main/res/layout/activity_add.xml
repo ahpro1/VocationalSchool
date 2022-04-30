@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="#FF0000"
+        android:textSize="24sp"
+        android:layout_height="wrap_content"
+        android:text="اضافة بيانات مدرسة مهنية " />
+
+    <EditText
+        android:id="@+id/edtNameSc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="اسم المدرسة المهنية"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textSize="19sp" />
+
+    <EditText
+        android:id="@+id/edtAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="عنوان المدرسة"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textSize="19sp" />
+
+    <EditText
+        android:id="@+id/edtPhoneNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="رقم الهاتف"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textSize="19sp" />
+
+    <EditText
+        android:id="@+id/edtPop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="عدد طلاب المدرسة"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textSize="19sp" />
+
+    <Button
+        android:id="@+id/btnAdd2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#FF0000"
+        android:text="اضافة"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:cornerRadius="20dp" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#FF0000"
+        android:text="للخلف"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:cornerRadius="20dp" />
+</LinearLayout>
